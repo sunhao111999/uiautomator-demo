@@ -9,8 +9,8 @@ import java.io.*;
 
 public class Base extends UiAutomatorTestCase
 {
-    private static String APP_NAME = "豆瓣东西";
-    private static String PACKAGE_NAME = "com.douban.dongxi";
+    private static String APP_NAME = "";
+    private static String PACKAGE_NAME = "";
     private static String SCREEN_FILE_PATH = "/data/local/" + PACKAGE_NAME;
 
     public static UiObject yourApp;
